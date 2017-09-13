@@ -1,6 +1,8 @@
 Name: Jerri Royland
 Date: 09.08.17
 
-This is my first text document for one of Dr. Musick's media arts courses.
+This is my first text document for Dr. Musick's media arts course.
 
 I added a new line to this file in my text editor!!!!
+
+This line was also added in Atom.
