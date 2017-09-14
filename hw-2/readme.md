@@ -10,7 +10,7 @@
 2. *Steps / Useful Tricks*
   - I found it helped to go back and skim the lessons to make sure I completed all the tasks.  There was so much content and I always felt like I missed something.
   - I also saved snips of the basic commands so I could use them in Powershell.
-  - And I kept the test markdown file as a cheatsheet next to my work on this file.
+  - And I kept the test markdown file as a cheatsheet next to my work on this file in Atom.
 
 3.  *Issues*
   - After I downloaded Git, I entered `git --version` into Powershell and it sent back nothing.  I followed the suggestion to restart Powershell, then retyped the command and it worked perfectly.
@@ -26,4 +26,5 @@
 5.  *Help*
   - I wasn't able to help anyone on the forum.  I was a bit slow this week working through the content and apps.
 
-  ![Image of my editor](atom_hw-2)
+
+  ![Image of my editor](atom_hw-2.jpg)
