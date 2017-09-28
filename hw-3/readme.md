@@ -20,5 +20,5 @@ I moved on to the text and again nothing came up.  I forgot to put in the quotat
 #### *Outcome*
 It turned out well enough.  I decided to use a common font rather than attaching a special font since I'm not sure how yet.  And the CB image I found is not a great represenation of the original ending screen from the series.
 
-  ![Hello World](images/HW-3.png)
+  ![Hello World](images/HW3.jpg)
   ![Cowboy Bebop](images/CowboyBebop.jpg)
