@@ -27,11 +27,12 @@ var col = {
 
 function setup () {
   createCanvas(600, 400);
+  background(36, 51, 57);
 }
 
 function draw () {
 // frame color tone, alpha and speed
-  background(36, 51, 57, 50);
+  //background(36, 51, 57);
   //background(124, 227, 236, 50);
   //background(28, 158, 185, 50);
   //background(58, 83, 102, 50);
@@ -39,8 +40,8 @@ function draw () {
   frameRate(28);
 
 // rain color variables
-  col.r = random(50, 150);
-  col.g = random(50, 170);
+  col.r = random(50, 200);
+  col.g = random(30, 170);
   col.b = random(100, 200);
   stroke (col.r, col.g, col.b);
 

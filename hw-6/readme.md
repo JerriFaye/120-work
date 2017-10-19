@@ -21,3 +21,8 @@ It was at first difficult to map and constrain values.  But I figured it out and
 I was able to create what I set out to do but when I was finally done this morning I realized too late that I hadn't actually created an algorithmic sketch.  I set the background in the draw function so it would continually refresh the page like an animation.  So it's actually an animation, not a design that builds on the same page over time.  I didn't realize this when I decided on rain because I was too focused on the random, mapping and constraining.  Now it makes sense that it was difficult to find a useful place for the math operators because they would have been the main functions in an algorithm.
 
 Poop.
+
+#### *Changes*
+Just kidding.  It's an algorithm now.  I simply moved the background out of the draw function as I should have done before and played with the color values so there are now some warmer golds and pinks.  This looks brighter and prettier.  And more interesting.
+
+Now I've got an animation and an algorithm in one.
