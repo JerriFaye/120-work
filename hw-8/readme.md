@@ -14,3 +14,5 @@ I changed the background from a gray to black and then gave the triangles the sa
 Of course I turned the frame rate down to be able to watch the colors change comfortably.  And I adjusted the canvas to fit the pattern.
 
 The only issue I had was when I tried to get the triangles to rotate with each color change.  I couldn't get it to work with the loops.  But I abandoned the idea to create the sun and mountain pattern instead.
+
+  ![LoopSketch](images/LoopSketch.png)
