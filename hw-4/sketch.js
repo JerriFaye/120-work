@@ -1,0 +1,310 @@
+function setup(){
+  createCanvas (600, 500);
+  background (235, 235, 235);
+}
+function draw(){
+// left eyebrow
+  beginShape();
+  curveVertex(260, 205);
+  curveVertex(260, 205);
+  curveVertex(257, 215);
+  curveVertex(210, 203);
+  curveVertex(170, 208);
+  curveVertex(170, 205);
+  curveVertex(210, 195);
+  curveVertex(260, 205);
+  curveVertex(260, 205);
+  fill('white');
+  endShape();
+// left eye
+  beginShape();
+  curveVertex(190, 235);
+  curveVertex(190, 235);
+  curveVertex(220, 230);
+  curveVertex(245, 235);
+  curveVertex(245, 235);
+  curveVertex(232, 252);
+  curveVertex(200, 250);
+  curveVertex(190, 235);
+  curveVertex(190, 235);
+  fill('white');
+  endShape();
+  // left iris
+    beginShape();
+    curveVertex(203, 233);
+    curveVertex(203, 233);
+    curveVertex(230, 232);
+    curveVertex(225, 246);
+    curveVertex(208, 246);
+    curveVertex(203, 233);
+    curveVertex(203, 233);
+    //fill(255, 233, 0);
+    endShape();
+  // left pupil
+    beginShape();
+    curveVertex(210, 233);
+    curveVertex(210, 233);
+    curveVertex(224, 232);
+    curveVertex(220, 240);
+    curveVertex(214, 240);
+    curveVertex(210, 233);
+    curveVertex(210, 233);
+    endShape();
+// left eyelash
+  push();
+  strokeWeight(2);
+  noFill();
+  bezier(180, 235, 210, 230, 240, 226, 254, 238);
+  pop();
+// right eyebrow
+  beginShape();
+  curveVertex(306, 205);
+  curveVertex(306, 205);
+  curveVertex(340, 198);
+  curveVertex(362, 205);
+  curveVertex(362, 208);
+  curveVertex(340, 206);
+  curveVertex(309, 215);
+  curveVertex(306, 205);
+  curveVertex(306, 205);
+  endShape();
+// right eye
+  beginShape();
+  curveVertex(316, 233);
+  curveVertex(316, 233);
+  curveVertex(335, 227);
+  curveVertex(352, 232);
+  curveVertex(352, 232);
+  curveVertex(345, 248);
+  curveVertex(323, 250);
+  curveVertex(316, 233);
+  curveVertex(316, 233);
+  endShape();
+  // right iris
+    push();
+    beginShape();
+    curveVertex(323, 230);
+    curveVertex(323, 230);
+    curveVertex(345, 230);
+    curveVertex(341, 242);
+    curveVertex(328, 243);
+    curveVertex(323, 230);
+    curveVertex(323, 230);
+    endShape();
+    pop();
+    // right pupil
+      push();
+      beginShape();
+      curveVertex(328, 230);
+      curveVertex(328, 230);
+      curveVertex(335, 230);
+      curveVertex(340, 230);
+      curveVertex(339, 237);
+      curveVertex(332, 238);
+      curveVertex(328, 230);
+      curveVertex(328, 230);
+      endShape();
+      pop();
+  // right eyelash
+    push();
+    strokeWeight(2);
+    noFill();
+    bezier(310, 236, 320, 226, 340, 225, 357, 234);
+    pop();
+// nose
+  noFill();
+  bezier(305, 275, 320, 310, 330, 312, 297, 328);
+  // nostril
+    noFill();
+    bezier(275, 314, 280, 314, 285, 314, 292, 317);
+// upper lip
+  noFill();
+  bezier(280, 352, 290, 355, 293, 355, 296, 352);
+  // lip left
+    noFill();
+    bezier(230, 366, 255, 369, 265, 361, 285, 366);
+    // lip right
+      noFill();
+      bezier(295, 366, 310, 361, 320, 366, 327, 364);
+      // lower lip
+        noFill();
+        bezier(280, 382, 290, 380, 295, 380, 297, 382);
+// left hair
+  //yellow hair
+  fill(255, 251, 0);
+  beginShape();
+  vertex(321, 107);
+  vertex(323, 95);
+  vertex(168, 190);
+  vertex(178, 195);
+  endShape(CLOSE);
+  fill(255, 251, 0);
+  beginShape();
+  vertex(168, 190);
+  vertex(178, 195);
+  vertex(145, 318);
+  vertex(130, 323);
+  endShape(CLOSE);
+  fill(255, 251, 0);
+  beginShape();
+  vertex(130, 323);
+  vertex(145, 318);
+  vertex(178, 435);
+  vertex(165, 430);
+  endShape(CLOSE);
+  // hair green
+  fill(87, 200, 25);
+  beginShape();
+  vertex(320, 80);
+  vertex(323, 95);
+  vertex(160, 180);
+  vertex(140, 160);
+  endShape(CLOSE);
+  fill(87, 200, 25);
+  beginShape();
+  vertex(140, 160);
+  vertex(160, 180);
+  vertex(140, 325);
+  vertex(120, 330);
+  endShape(CLOSE);
+  fill(87, 200, 25);
+  beginShape();
+  vertex(120, 330);
+  vertex(140, 325);
+  vertex(215, 435);
+  vertex(185, 420);
+  endShape(CLOSE);
+  // hair blue
+  fill(23, 141, 208);
+  beginShape();
+  vertex(310, 70);
+  vertex(320, 80);
+  vertex(140, 160);
+  vertex(130, 140);
+  endShape(CLOSE);
+  fill(23, 141, 208);
+  beginShape();
+  vertex(130, 140);
+  vertex(140, 160);
+  vertex(120, 330);
+  vertex(105, 316);
+  endShape(CLOSE);
+  fill(23, 141, 208);
+  beginShape();
+  vertex(105, 316);
+  vertex(120, 330);
+  vertex(150, 420);
+  vertex(130, 405);
+  endShape(CLOSE);
+  // hair purple
+  fill(133, 3, 149);
+  beginShape();
+  vertex(300, 62);
+  vertex(310, 70);
+  vertex(130, 140);
+  vertex(120, 130);
+  endShape(CLOSE);
+  fill(133, 3, 149);
+  beginShape();
+  vertex(120, 130);
+  vertex(130, 140);
+  vertex(105, 316);
+  vertex(94, 307);
+  endShape(CLOSE);
+  fill(133, 3, 149);
+  beginShape();
+  vertex(94, 307);
+  vertex(105, 316);
+  vertex(110, 384);
+  vertex(98, 373);
+  endShape(CLOSE);
+  // hair red
+  fill(231, 15, 16);
+  beginShape();
+  vertex(286, 54);
+  vertex(300, 62);
+  vertex(120, 130);
+  vertex(110, 121);
+  endShape(CLOSE);
+  fill(231, 15, 16);
+  beginShape();
+  vertex(110, 121);
+  vertex(120, 130);
+  vertex(94, 307);
+  vertex(84, 295);
+  endShape(CLOSE);
+  fill(231, 15, 16);
+  beginShape();
+  vertex(84, 295);
+  vertex(94, 307);
+  vertex(98, 373);
+  vertex(87, 368);
+  endShape(CLOSE);
+  // hair orange
+  fill(255, 164, 0);
+  beginShape();
+  vertex(273, 47);
+  vertex(286, 54);
+  vertex(110, 121);
+  vertex(100, 112);
+  endShape(CLOSE);
+  fill(255, 164, 0);
+  beginShape();
+  vertex(100, 112);
+  vertex(110, 121);
+  vertex(84, 295);
+  vertex(73, 285);
+  endShape(CLOSE);
+  fill(255, 164, 0);
+  beginShape();
+  vertex(73, 285);
+  vertex(84, 295);
+  vertex(87, 368);
+  vertex(77, 362);
+  endShape(CLOSE);
+  // right hair
+    // hair yellow
+    fill(255, 251, 0);
+    beginShape();
+    vertex(321, 107);
+    vertex(323, 95);
+    vertex(365, 173);
+    vertex(360, 178);
+    endShape(CLOSE);
+    fill(255, 251, 0);
+    beginShape();
+    vertex(360, 178);
+    vertex(365, 173);
+    vertex(378, 315);
+    vertex(370, 310);
+    endShape(CLOSE);
+    fill(255, 251, 0);
+    beginShape();
+    vertex(370, 310);
+    vertex(378, 315);
+    vertex(350, 435);
+    vertex(343, 420);
+    endShape(CLOSE);
+    // hair green
+    fill(87, 200, 25);
+    beginShape();
+    vertex(323, 95);
+    vertex(320, 80);
+    vertex(378, 170);
+    vertex(365, 173);
+    endShape(CLOSE);
+    fill(87, 200, 25);
+    beginShape();
+    vertex(365, 173);
+    vertex(378, 170);
+    vertex(385, 312);
+    vertex(378, 315);
+    endShape(CLOSE);
+    fill(87, 200, 25);
+    beginShape();
+    vertex(378, 315);
+    vertex(385, 312);
+    vertex(375, 428);
+    vertex(365, 420);
+    endShape(CLOSE);
+}
