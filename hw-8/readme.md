@@ -15,4 +15,4 @@ Of course I turned the frame rate down to be able to watch the colors change com
 
 The only issue I had was when I tried to get the triangles to rotate with each color change.  I couldn't get it to work with the loops.  But I abandoned the idea to create the sun and mountain pattern instead.
 
-  ![LoopSketch](images/LoopSketch.png)
+  ![LoopSketch](images/LoopSketch.jpg)
